@@ -1,4 +1,3 @@
-// runtime program example
 // invokation forwarding example
 #import <Foundation/Foundation.h>
 #import "objc/runtime.h"

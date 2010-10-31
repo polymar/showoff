@@ -68,5 +68,6 @@ int main()
 	[lever setLeverUp:YES];
 	printf("Close the passage, i want the treasure only for myself!\n");
 	[lever setLeverUp:NO];
+	
 	return 0;
 }

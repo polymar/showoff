@@ -1,4 +1,4 @@
-// First program example
+// Foundation program example
 
 #import <Foundation/Foundation.h>
 
