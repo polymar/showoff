@@ -1,43 +1,23 @@
 // !$*UTF8*$!
 {
-	306D7350127D892700E6DCE9 /* PBXTextBookmark */ = {
+	30166708127D981100818095 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 30E416FA127CC1FF0009502D /* main.m */;
-		name = "main.m: 1";
-		rLen = 608;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 388;
-		vrLoc = 0;
-	};
-	306D7351127D892700E6DCE9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 30E416F8127CC0F20009502D /* TTDevDayObject.h */;
-		name = "TTDevDayObject.h: 1";
-		rLen = 264;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 265;
-		vrLoc = 0;
-	};
-	306D7352127D892700E6DCE9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 30E416F9127CC0F20009502D /* TTDevDayObject.m */;
-		name = "TTDevDayObject.m: 15";
+		name = "main.m: 2";
 		rLen = 0;
-		rLoc = 243;
+		rLoc = 47;
 		rType = 0;
-		vrLen = 390;
+		vrLen = 362;
 		vrLoc = 0;
 	};
-	306D7353127D892700E6DCE9 /* PBXTextBookmark */ = {
+	30166709127D981100818095 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 30E416F9127CC0F20009502D /* TTDevDayObject.m */;
-		name = "TTDevDayObject.m: 18";
+		fRef = 30E416FA127CC1FF0009502D /* main.m */;
+		name = "main.m: 3";
 		rLen = 0;
-		rLoc = 257;
+		rLoc = 47;
 		rType = 0;
-		vrLen = 390;
+		vrLen = 383;
 		vrLoc = 0;
 	};
 	30E416ED127CC0BC0009502D /* Project object */ = {
@@ -74,11 +54,9 @@
 			PBXWorkspaceStateSaveDate = 310220109;
 		};
 		perUserProjectItems = {
-			306D7350127D892700E6DCE9 = 306D7350127D892700E6DCE9 /* PBXTextBookmark */;
-			306D7351127D892700E6DCE9 = 306D7351127D892700E6DCE9 /* PBXTextBookmark */;
-			306D7352127D892700E6DCE9 = 306D7352127D892700E6DCE9 /* PBXTextBookmark */;
-			306D7353127D892700E6DCE9 = 306D7353127D892700E6DCE9 /* PBXTextBookmark */;
-			30E4172D127CDD140009502D = 30E4172D127CDD140009502D /* PBXTextBookmark */;
+			30166708127D981100818095 /* PBXTextBookmark */ = 30166708127D981100818095 /* PBXTextBookmark */;
+			30166709127D981100818095 /* PBXTextBookmark */ = 30166709127D981100818095 /* PBXTextBookmark */;
+			30E4172D127CDD140009502D /* PBXTextBookmark */ = 30E4172D127CDD140009502D /* PBXTextBookmark */;
 		};
 		sourceControlManager = 30E416F1127CC0BC0009502D /* Source Control */;
 		userBuildSettings = {
@@ -97,32 +75,6 @@
 	30E416F2127CC0BC0009502D /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	30E416F8127CC0F20009502D /* TTDevDayObject.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = TTDevDayObject.h;
-		path = /Users/openovo/projects/presentation/objc/samples/plain_objc/TTDevDayObject.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {802, 490}}";
-			sepNavSelRange = "{135, 21}";
-			sepNavVisRange = "{0, 265}";
-		};
-	};
-	30E416F9127CC0F20009502D /* TTDevDayObject.m */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.objc;
-		name = TTDevDayObject.m;
-		path = /Users/openovo/projects/presentation/objc/samples/plain_objc/TTDevDayObject.m;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {802, 490}}";
-			sepNavSelRange = "{162, 18}";
-			sepNavVisRange = "{0, 390}";
-		};
 	};
 	30E416FA127CC1FF0009502D /* main.m */ = {
 		uiCtxt = {
