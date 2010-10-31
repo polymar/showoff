@@ -6,7 +6,6 @@
 }
 
 - (void)setLeverUp:(BOOL)x;
-- (BOOL)isLeverUp;
 
 @end
 
@@ -15,11 +14,6 @@
 - (void)setLeverUp:(BOOL)x;
 {
 	leverUp = x;
-}
-
-- (BOOL)isLeverUp;
-{
-	return leverUp;
 }
 
 @end
@@ -48,9 +42,9 @@
 	BOOL newLeverUp = [[change objectForKey:NSKeyValueChangeNewKey] boolValue];
 	
 	if (newLeverUp == YES)
-		printf(" Opening the secret passage. You found your treasure.\n");
+		printf("--> Opening the secret passage. You found your treasure.\n");
 	else
-		printf(" SCREEEK\n");
+		printf("--> SCREEEK\n");
 }
 
 @end
@@ -66,6 +60,7 @@ int main()
 	
 	printf("Pushing the lever up!\n");
 	[lever setLeverUp:YES];
+	
 	printf("Close the passage, i want the treasure only for myself!\n");
 	[lever setLeverUp:NO];
 	
