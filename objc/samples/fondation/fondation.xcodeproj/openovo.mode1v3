@@ -232,8 +232,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,7 +272,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -309,6 +306,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,12 +325,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>306D734D127D892500E6DCE9</string>
+										<string>30166701127D953A00818095</string>
 										<key>history</key>
 										<array>
-											<string>30E41736127CDD190009502D</string>
-											<string>306D734B127D892500E6DCE9</string>
-											<string>306D734C127D892500E6DCE9</string>
+											<string>30166700127D953A00818095</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -343,14 +340,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 392}}</string>
+								<string>{{0, 0}, {580, 389}}</string>
 								<key>RubberWindowFrame</key>
 								<string>317 176 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>392pt</string>
+							<string>389pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -363,14 +360,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 397}, {580, 66}}</string>
+								<string>{{0, 394}, {580, 69}}</string>
 								<key>RubberWindowFrame</key>
 								<string>317 176 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>66pt</string>
+							<string>69pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -389,9 +386,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>306D734E127D892500E6DCE9</string>
+				<string>30166702127D953A00818095</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>306D734F127D892500E6DCE9</string>
+				<string>30166703127D953A00818095</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -529,7 +526,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/openovo/Desktop/TTDevDay/fondation/fondation.xcodeproj</string>
+		<string>/Users/openovo/projects/presentation/objc/samples/fondation/fondation.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>317 176 788 504 0 0 1280 778 </string>

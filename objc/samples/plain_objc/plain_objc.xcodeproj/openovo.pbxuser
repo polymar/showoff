@@ -4,7 +4,7 @@
 		isa = PBXTextBookmark;
 		fRef = 30E416FA127CC1FF0009502D /* main.m */;
 		name = "main.m: 1";
-		rLen = 388;
+		rLen = 608;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 388;
@@ -70,15 +70,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 310210865;
-			PBXWorkspaceStateSaveDate = 310210865;
+			PBXPerProjectTemplateStateSaveDate = 310220109;
+			PBXWorkspaceStateSaveDate = 310220109;
 		};
 		perUserProjectItems = {
-			306D7350127D892700E6DCE9 /* PBXTextBookmark */ = 306D7350127D892700E6DCE9 /* PBXTextBookmark */;
-			306D7351127D892700E6DCE9 /* PBXTextBookmark */ = 306D7351127D892700E6DCE9 /* PBXTextBookmark */;
-			306D7352127D892700E6DCE9 /* PBXTextBookmark */ = 306D7352127D892700E6DCE9 /* PBXTextBookmark */;
-			306D7353127D892700E6DCE9 /* PBXTextBookmark */ = 306D7353127D892700E6DCE9 /* PBXTextBookmark */;
-			30E4172D127CDD140009502D /* PBXTextBookmark */ = 30E4172D127CDD140009502D /* PBXTextBookmark */;
+			306D7350127D892700E6DCE9 = 306D7350127D892700E6DCE9 /* PBXTextBookmark */;
+			306D7351127D892700E6DCE9 = 306D7351127D892700E6DCE9 /* PBXTextBookmark */;
+			306D7352127D892700E6DCE9 = 306D7352127D892700E6DCE9 /* PBXTextBookmark */;
+			306D7353127D892700E6DCE9 = 306D7353127D892700E6DCE9 /* PBXTextBookmark */;
+			30E4172D127CDD140009502D = 30E4172D127CDD140009502D /* PBXTextBookmark */;
 		};
 		sourceControlManager = 30E416F1127CC0BC0009502D /* Source Control */;
 		userBuildSettings = {
@@ -99,24 +99,36 @@
 		indexTemplatePath = "";
 	};
 	30E416F8127CC0F20009502D /* TTDevDayObject.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = TTDevDayObject.h;
+		path = /Users/openovo/projects/presentation/objc/samples/plain_objc/TTDevDayObject.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {802, 493}}";
-			sepNavSelRange = "{0, 264}";
+			sepNavIntBoundsRect = "{{0, 0}, {802, 490}}";
+			sepNavSelRange = "{135, 21}";
 			sepNavVisRange = "{0, 265}";
 		};
 	};
 	30E416F9127CC0F20009502D /* TTDevDayObject.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TTDevDayObject.m;
+		path = /Users/openovo/projects/presentation/objc/samples/plain_objc/TTDevDayObject.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {802, 493}}";
-			sepNavSelRange = "{257, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {802, 490}}";
+			sepNavSelRange = "{162, 18}";
 			sepNavVisRange = "{0, 390}";
 		};
 	};
 	30E416FA127CC1FF0009502D /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {802, 493}}";
-			sepNavSelRange = "{0, 388}";
-			sepNavVisRange = "{0, 388}";
+			sepNavIntBoundsRect = "{{0, 0}, {802, 689}}";
+			sepNavSelRange = "{47, 0}";
+			sepNavVisRange = "{0, 383}";
 		};
 	};
 	30E4172D127CDD140009502D /* PBXTextBookmark */ = {

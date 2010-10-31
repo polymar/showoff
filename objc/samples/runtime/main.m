@@ -2,7 +2,34 @@
 
 #import <Foundation/Foundation.h>
 #import "objc/runtime.h"
-#import "TTDevDayObject.h"
+
+@interface TTDevDayObject : NSObject {
+	int counter;
+}
+
+- (void) implementSEL:(SEL) aSelector;
+- (void) count;
+
+@end
+
+@implementation TTDevDayObject
+
+void dynamicMethodIMP(id self, SEL _cmd) { // implementation ....
+	NSLog(@"What should I do?");
+}
+
+- (void) implementSEL:(SEL) aSelector {
+	if (aSelector != @selector(count)) { 
+		class_addMethod([self class], aSelector, (IMP) dynamicMethodIMP, "v@:"); 
+	}
+}
+
+- (void) count {
+	printf("Hello world %d\n", counter++);
+}
+
+@end
+
 
 void dumpAvailableMethods(id aClass);
 int main (int argc, const char * argv[])

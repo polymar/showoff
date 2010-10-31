@@ -1,7 +1,20 @@
 // First program example
 
 #import <Foundation/Foundation.h>
-#import "TTDevDayObject.h"
+
+@interface TTDevDayObject : NSObject {
+	int counter;
+}
+
+- (void) count;
+
+@end
+
+@implementation TTDevDayObject
+- (void) count {
+	printf("Hello world %d\n", counter++);
+}
+@end
 
 int main (int argc, const char * argv[])
 {
