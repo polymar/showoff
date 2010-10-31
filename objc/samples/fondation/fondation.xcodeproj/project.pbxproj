@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		30E41707127CC7CC0009502D /* TTDevDayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDevDayObject.h; sourceTree = "<group>"; };
-		30E41708127CC7CC0009502D /* TTDevDayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDevDayObject.m; sourceTree = "<group>"; };
 		30E4170B127CC88C0009502D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -17,8 +15,6 @@
 			isa = PBXGroup;
 			children = (
 				30E4170B127CC88C0009502D /* main.m */,
-				30E41707127CC7CC0009502D /* TTDevDayObject.h */,
-				30E41708127CC7CC0009502D /* TTDevDayObject.m */,
 			);
 			sourceTree = "<group>";
 		};

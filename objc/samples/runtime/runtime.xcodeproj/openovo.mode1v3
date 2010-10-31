@@ -232,6 +232,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -307,8 +309,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,12 +326,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>306D7349127D892100E6DCE9</string>
+										<string>301666F1127D942700818095</string>
 										<key>history</key>
 										<array>
-											<string>306D7336127D83CF00E6DCE9</string>
-											<string>306D7337127D83CF00E6DCE9</string>
-											<string>306D7338127D83CF00E6DCE9</string>
+											<string>301666F0127D942700818095</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -389,9 +387,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>306D7319127D79F200E6DCE9</string>
+				<string>301666F2127D942700818095</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>306D731A127D79F200E6DCE9</string>
+				<string>301666F3127D942700818095</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -529,7 +527,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/openovo/Desktop/TTDevDay/runtime/runtime.xcodeproj</string>
+		<string>/Users/openovo/projects/presentation/objc/samples/runtime/runtime.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>137 107 934 592 0 0 1280 778 </string>
