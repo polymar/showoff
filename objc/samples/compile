@@ -1,1 +1,0 @@
-gcc -framework Foundation $1/main.m -o ./$1/test
