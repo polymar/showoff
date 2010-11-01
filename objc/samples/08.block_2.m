@@ -2,7 +2,7 @@
 #include <Block.h>
 typedef int (^IntBlock)();
 
-IntBlock counter(int start, int increment) {
+IntBlock newCounter(int start, int increment) {
 	__block int i = start;
 	
 	return Block_copy( ^ {
@@ -14,7 +14,7 @@ IntBlock counter(int start, int increment) {
 }
 
 int main() {
-	IntBlock mycounter = counter(5, 2);
+	IntBlock mycounter = newCounter(5, 2);
 	printf("First call: %d\n", mycounter());
 	printf("Second call: %d\n", mycounter());
 	printf("Third call: %d\n", mycounter());

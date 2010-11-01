@@ -37,7 +37,7 @@ int main (int argc, const char * argv[]) {
 	[parking fillSlot:1];
 	[parking fillSlot:2];
 	
-	[parking badStuff]; //here goes the release
+	[parking badStuff]; //here goes the release :D
 	
 	[parking fillSlot:7];
 	[parking fillSlot:9];
