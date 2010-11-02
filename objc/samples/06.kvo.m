@@ -1,5 +1,6 @@
 #include <Foundation/Foundation.h>
 
+// i'm the Model
 @interface Lever : NSObject
 {
 	BOOL leverUp;
@@ -18,6 +19,7 @@
 
 @end
 
+// i'm the the View
 @interface SecretPassage : NSObject
 
 - (void)linkToLever:(Lever *)lever;

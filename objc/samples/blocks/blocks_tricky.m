@@ -12,8 +12,9 @@ int main (int argc, const char * argv[]) {
     Blocky b[3];
 	
 	int i;
-    for (i=0; i<3; i++)
+    for (i=0; i<3; i++) {
         b[i] = ^{ return i;};
+	}
 	
 	//for (i=0; i<3; i++)
 //        b[i] = [^{ return i;} copy];
