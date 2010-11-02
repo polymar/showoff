@@ -16,8 +16,8 @@
 
 - (id) init {
 	if (self = [super init]) {
-		NSArray* objects = [NSArray arrayWithObjects:@"TomTom",@"Roberto Gamboni",nil];
-		NSArray* keys = [NSArray arrayWithObjects:@"company", @"employee", nil];
+		NSArray* objects = [NSArray arrayWithObjects:@"TomTom",@"Roberto Gamboni", @"28", nil];
+		NSArray* keys = [NSArray arrayWithObjects:@"company", @"employee", @"count", nil];
 		aDictionary = [NSDictionary dictionaryWithObjects:objects
 												  forKeys:keys];
 	}

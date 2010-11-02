@@ -5,8 +5,7 @@
 {
 	BOOL leverUp;
 }
-
-- (void)setLeverUp:(BOOL)x;
+@property(getter = isLeverUp) BOOL leverUp;
 
 @end
 
@@ -15,6 +14,9 @@
 - (void)setLeverUp:(BOOL)x;
 {
 	leverUp = x;
+}
+- (BOOL) isLeverUp {
+	return leverUp;
 }
 
 @end
